@@ -1,0 +1,191 @@
+body {
+  background: #1bbdf3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*
+
+
+
+
+
+
+.texto-pequena-descricao,
+.texto-eventos {
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  height: auto;
+}
+
+button {
+  width: 20%;
+  align-content: space-between;
+  margin-left: 3.5%;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgb(1, 209, 216);
+  
+  font-size: large;
+  color: rgb(37, 2, 178);
+}
+
+.sobre-nos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Eventos,
+.sobre-nos,
+.contato,
+.Equipe {
+  width: 100%;
+}
+
+.texto-eventos {
+  font-size: large;
+  text-align: center;
+}
+
+.Equipe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.descricao-profissional-equipe {
+  width: 45%;
+  height: fit-content;
+  margin: 0;
+  margin-left: 5%;
+  margin-top: 225px;
+}
+
+.funcao-equipe {
+  margin-left: 5%;
+}
+
+.imagem-equipe {
+  width: 450px;
+  height: 400px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 20px;
+} */
+
+/* Eric CSS */
+/* Header */
+.logo-menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  padding: 8px 32px 0;
+  margin-bottom: 24px;
+}
+
+.logo {
+  max-width: 80px;
+  padding: 8px 0;
+}
+
+.menu .botoes {
+  display: flex;
+  gap: 8px;
+  height: 100%;
+}
+
+.menu .botoes li button {
+  height: 100%;
+  padding: 0 16px;
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu .botoes li button:hover {
+  color: #1bbdf3;
+}
+
+/* Pages Shared Styles*/
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* .content > div {
+  -webkit-animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-top 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+} */
+
+.borda {
+  background-color: white;
+  padding: 16px;
+  border-radius: 20px;
+  overflow: hidden;
+  /* border: 3px solid #052f64; */
+}
+
+.borda h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Pages Specific Styles*/
+/* Início */
+
+/* Sobre nós */
+.sobre-nos {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.sobre-local,
+.sobre-atividades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-local img,
+.sobre-atividades img {
+  max-width: 50%;
+}
+
+.texto-sobre {
+  /* border: 1px solid red; */
+  height: max-content;
+  padding: 0 32px;
+  font-size: 32px;
+}
+
+.sobre-atividades-2 img {
+  max-width: 100%;
+}
+
+/* Eventos */
+.eventos {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.eventos > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eventos > div img {
+  max-width: 50%;
+}
+/* Contato */
+.contato img {
+  max-width: 100%;
+}
+
+/* Keyframes for Animations */
