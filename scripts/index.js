@@ -73,7 +73,7 @@ const equipe = `
     <h1>Equipe</h1>
     <img src="./imagens/MicrosoftTeams-image.png" alt="" class="imagem-equipe borda" />
     <p class="descricao-profissional-equipe borda">
-        Está é a professora Mácia. Formada em Educação Física, com grande experiência na área de musculação e aulas coletivas.
+        Está é a professora Francisca Márcia Façanha Lima. Possui em licenciatura e bacharel em Educação Fisíca, Pós-Graduada em Medicina do Esporte, Pós-Graduada em Fisíologia do Exercício e Análise Morfo-Funcional. Especialização: Spinning, Jump, Ginástica Localizada, Treinamento Funcional, HIIT, Ginástica Laboral, Ginástica para a Terceira Idade, Personal-Trainer, Alongamento, Treinamento TABATA, Primeiros-Socorros.
     </p>
     <p class="funcao-equipe borda">
         Dentro do projeto ela é a professora e instrutora fisica. Ela está responsável por organizar as dinâmicas e orientar um exercício mais
@@ -84,16 +84,13 @@ const equipe = `
 const contato = `
 <div class="contato borda">
     <h1>Contatos</h1>
-    <img src="./imagens/evento_04.png" alt="" class="imagem-contato" />
+    <img src="./imagens/equipe.png" alt="" class="imagem-contato" />
     <ul>
         <li class="rede-social">
-            <a href="#"><i scr="https://cdn-icons-png.flaticon.com/512/87/87390.png"></i></a>
+            <a href="https://www.instagram.com/rioemformaoficial/"><i scr="https://cdn-icons-png.flaticon.com/512/87/87390.png"></i></a>
         </li>
         <li class="rede-social">
-            <a href="#"><i></i></a>
-        </li>
-        <li class="rede-social">
-            <a href="#"><i></i></a>
+            <a href="https://rioemforma.rio/#"><i>Outras Sedes</i></a>
         </li>
     </ul>    
 </div>`;
