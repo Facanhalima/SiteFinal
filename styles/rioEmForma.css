@@ -137,6 +137,14 @@ button {
 /* Pages Specific Styles*/
 /* Início */
 
+.agenda-horario{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 /* Sobre nós */
 .sobre-nos {
   display: flex;

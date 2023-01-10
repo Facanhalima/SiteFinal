@@ -1,10 +1,6 @@
 const inicio = `
 <div class="home borda">
-    <h2 class="jargao">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam explicabo corrupti necessitatibus, vel et officiis. Natus
-        aliquid a quidem molestiae tempore rerum dignissimos, fugiat eaque quisquam magni velit sit.
-    </h2>
-
+   
     <p class="texto-pequena-descricao">
         O projeto Rio em Forma é um programa de governo do município do Rio de Janeiro que visa promover a saúde e o bem-estar da população através
         de atividades físicas e esportivas. O projeto inclui uma série de atividades ao ar livre, como caminhadas, corridas, aulas de yoga e outros
@@ -12,7 +8,56 @@ const inicio = `
         promove ações de conscientização sobre a importância de uma vida ativa e saudável, através de campanhas de mídia e eventos especiais. O
         projeto tem como objetivo aumentar a qualidade de vida da população e contribuir para a redução de doenças crônicas, como obesidade e
         diabetes, que são cada vez mais prevalentes na cidade.
+
+        Este site é focado em dar destaque a uma das unidades deste projeto, este que ocorre no meier, na escala de dias e horarios apresentados abaixo:
+
     </p>
+
+    <br>
+
+    <div class="agenda-horario">
+
+        <ul> Terça-feira
+
+            <li>7:00: Local(faixa elastica e colchonete)</li>
+            <li>8:00: Funcional</li>
+            <li>9:00: Alongamento(colchonete e faixa não elástica</li>
+            <li>10:00: Funcional</li>
+
+        </ul>
+
+      </div>
+
+      <br>
+
+      <div class="agenda-horario">
+
+        <ul> Quinta-feira
+
+          <li>7:00: Funcional</li>
+          <li>8:00: Alongamento (colchonete e faixa não elastica ou canga)</li>
+          <li>9:00: Local (Bola, bastão e colchonete)</li>
+          <li>10:00: Alongamento(faixa não elastica e colchonete)</li>
+
+        </ul>
+
+      </div>
+
+      <br>
+
+      <div class="agenda-horario">
+
+        <ul> Sexta-feira
+
+          <li>7:00: Alongamento (colchonete e faixa não elastica ou canga)</li>
+          <li>8:00: Local (faixa elastica, bola e colchonete)</li>
+          <li>9:00: Funcional</li>
+          <li>10:00: Local (halter e bastão colchonete)</li>
+
+        </ul>
+
+      </div>
+
 </div>`;
 
 const sobreNos = `
@@ -71,7 +116,7 @@ const eventos = `
 const equipe = `
 <div class="Equipe borda">
     <h1>Equipe</h1>
-    <img src="./imagens/MicrosoftTeams-image.png" alt="" class="imagem-equipe borda" />
+    <img src="./imagens/equipe.png" alt="" class="imagem-equipe borda" />
     <p class="descricao-profissional-equipe borda">
         Está é a professora Francisca Márcia Façanha Lima. Possui em licenciatura e bacharel em Educação Fisíca, Pós-Graduada em Medicina do Esporte, Pós-Graduada em Fisíologia do Exercício e Análise Morfo-Funcional. Especialização: Spinning, Jump, Ginástica Localizada, Treinamento Funcional, HIIT, Ginástica Laboral, Ginástica para a Terceira Idade, Personal-Trainer, Alongamento, Treinamento TABATA, Primeiros-Socorros.
     </p>
@@ -79,12 +124,26 @@ const equipe = `
         Dentro do projeto ela é a professora e instrutora fisica. Ela está responsável por organizar as dinâmicas e orientar um exercício mais
         adequado, diante da necessidade do aluno.
     </p>
+    <img src="./imagens/equipe3.png" alt="" class="imagem-equipe borda" />
+    <p class="descricao-profissional-equipe borda">
+        Está é a Glória Martiniano. 
+    </p>
+    <p class="funcao-equipe borda">
+        Ela é a responsável por representar o projeto para os orgãos públicos. 
+    </p>
+    <img src="./imagens/equipe2.png" alt="" class="imagem-equipe borda" />
+    <p class="descricao-profissional-equipe borda">
+        Está é a Juliana Fernandes.
+    </p>
+    <p class="funcao-equipe borda">
+        Dentro do projeto ela é a auxiliar da professora, auxiliando no controle dos materiais e da quantidade de pessoas presentes.
+    </p>
 </div>`;
 
 const contato = `
 <div class="contato borda">
     <h1>Contatos</h1>
-    <img src="./imagens/equipe.png" alt="" class="imagem-contato" />
+    <img src="./imagens/evento_04.png" alt="" class="imagem-contato" />
     <ul>
         <li class="rede-social">
             <a href="https://www.instagram.com/rioemformaoficial/"><i scr="https://cdn-icons-png.flaticon.com/512/87/87390.png"></i></a>
