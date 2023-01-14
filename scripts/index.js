@@ -1,63 +1,56 @@
 const inicio = `
-<div class="home borda">
-   
-    <p class="texto-pequena-descricao">
+<div class="home borda">   
+   <div class="home-top-wrapper">
+    <img src="./imagens/logo-name.png" alt="Rio em Forma Logo Text" />
+    <p class="home-pequena-descricao">
         O projeto Rio em Forma é um programa de governo do município do Rio de Janeiro que visa promover a saúde e o bem-estar da população através
-        de atividades físicas e esportivas. O projeto inclui uma série de atividades ao ar livre, como caminhadas, corridas, aulas de yoga e outros
-        exercícios, que são realizadas em diferentes pontos da cidade, como parques, praças e outras áreas verdes. Além disso, o Rio em Forma também
-        promove ações de conscientização sobre a importância de uma vida ativa e saudável, através de campanhas de mídia e eventos especiais. O
+        de atividades físicas e esportivas. 
+        <br />
+        <br />
+        O projeto inclui uma série de atividades ao ar livre, como caminhadas, corridas, aulas de yoga e outros
+        exercícios, que são realizadas em diferentes pontos da cidade, como parques, praças e outras áreas verdes. 
+        <br />
+        <br />
+        Além disso, o Rio em Forma também promove ações de conscientização sobre a importância de uma vida ativa e saudável, através de campanhas de mídia e eventos especiais. O
         projeto tem como objetivo aumentar a qualidade de vida da população e contribuir para a redução de doenças crônicas, como obesidade e
         diabetes, que são cada vez mais prevalentes na cidade.
-
+        <br />
+        <br />
         Este site é focado em dar destaque a uma das unidades deste projeto, este que ocorre no meier, na escala de dias e horarios apresentados abaixo:
-
     </p>
-
-    <br>
-
-    <div class="agenda-horario">
-
-        <ul> Terça-feira
-
-            <li>7:00: Local(faixa elastica e colchonete)</li>
-            <li>8:00: Funcional</li>
-            <li>9:00: Alongamento(colchonete e faixa não elástica</li>
-            <li>10:00: Funcional</li>
-
-        </ul>
-
-      </div>
-
-      <br>
-
+   </div>
+    
+    <div class="agenda-wrapper">
       <div class="agenda-horario">
-
-        <ul> Quinta-feira
-
+        <ul>
+          <li class="agenda-title">Terça-feira</li>
+          <li>7:00: Local(faixa elastica e colchonete)</li>
+          <li>8:00: Funcional</li>
+          <li>9:00: Alongamento(colchonete e faixa não elástica</li>
+          <li>10:00: Funcional</li>
+        </ul>
+      </div>
+      
+      <div class="agenda-horario">
+        <ul> 
+          <li class="agenda-title">Quinta-feira</li>
           <li>7:00: Funcional</li>
           <li>8:00: Alongamento (colchonete e faixa não elastica ou canga)</li>
           <li>9:00: Local (Bola, bastão e colchonete)</li>
           <li>10:00: Alongamento(faixa não elastica e colchonete)</li>
-
         </ul>
-
       </div>
-
-      <br>
-
+      
       <div class="agenda-horario">
-
-        <ul> Sexta-feira
-
+        <ul> 
+          <li class="agenda-title">Sexta-feira</li>
           <li>7:00: Alongamento (colchonete e faixa não elastica ou canga)</li>
           <li>8:00: Local (faixa elastica, bola e colchonete)</li>
           <li>9:00: Funcional</li>
           <li>10:00: Local (halter e bastão colchonete)</li>
-
         </ul>
-
       </div>
-
+    </div>    
 </div>`;
 
 const sobreNos = `
@@ -91,53 +84,68 @@ const sobreNos = `
 
 const eventos = `
 <div class="eventos borda">
-    <h1>Sobre Nós</h1>
-    <div>
+    <h1>Eventos</h1>
+    <div class="wrapper-eventos">
         <img src="imagens/sobreNos_02.png" alt="" class="imagem-eventos" />
         <p class="texto-eventos">
             Um dos eventos que ocorre todo final do mês é o café da manhã coletivo. Onde cada um leva algo para compor o café coletivo, também ocorrem
             dinâmicas de dança para descontrair e manter a constância dos exercícios.
         </p>
     </div>
-    <div>
+    <div class="wrapper-eventos">
         <p class="texto-eventos">Essa foi uma das aulas especiais feita em na piscina de uma academia local que cedeu espaço para o projeto.</p>
         <img src="imagens/evento_02.png" alt="" class="imagem-eventos" />
     </div>
-    <div>
+    <div class="wrapper-eventos">
         <img src="imagens/evento_01.png" alt="" class="imagem-eventos" />
         <p class="texto-eventos">Essa foto mostra o primeiro evento de viagem do grupo. A viagem foi para um sitio chamado Jonosake</p>
     </div>
-    <div>
+    <div class="wrapper-eventos">
         <p class="texto-eventos">Essa foi uma das dinâmicas de festas de final do mês que teve como tema festa junina.</p>
         <img src="imagens/evento_06.png" alt="" class="imagem-eventos" />
     </div>
 </div>`;
 
 const equipe = `
-<div class="Equipe borda">
+<div class="equipe borda">
     <h1>Equipe</h1>
-    <img src="./imagens/equipe.png" alt="" class="imagem-equipe borda" />
-    <p class="descricao-profissional-equipe borda">
-        Está é a professora Francisca Márcia Façanha Lima. Possui em licenciatura e bacharel em Educação Fisíca, Pós-Graduada em Medicina do Esporte, Pós-Graduada em Fisíologia do Exercício e Análise Morfo-Funcional. Especialização: Spinning, Jump, Ginástica Localizada, Treinamento Funcional, HIIT, Ginástica Laboral, Ginástica para a Terceira Idade, Personal-Trainer, Alongamento, Treinamento TABATA, Primeiros-Socorros.
-    </p>
-    <p class="funcao-equipe borda">
-        Dentro do projeto ela é a professora e instrutora fisica. Ela está responsável por organizar as dinâmicas e orientar um exercício mais
-        adequado, diante da necessidade do aluno.
-    </p>
-    <img src="./imagens/equipe3.png" alt="" class="imagem-equipe borda" />
-    <p class="descricao-profissional-equipe borda">
-        Está é a Glória Martiniano. 
-    </p>
-    <p class="funcao-equipe borda">
-        Ela é a responsável por representar o projeto para os orgãos públicos. 
-    </p>
-    <img src="./imagens/equipe2.png" alt="" class="imagem-equipe borda" />
-    <p class="descricao-profissional-equipe borda">
-        Está é a Juliana Fernandes.
-    </p>
-    <p class="funcao-equipe borda">
-        Dentro do projeto ela é a auxiliar da professora, auxiliando no controle dos materiais e da quantidade de pessoas presentes.
-    </p>
+    <div class="equipe-wrapper">
+      <img src="./imagens/equipe.png" alt="" class="imagem-equipe" />
+      <div class="equipe-text">
+        <p class="descricao-profissional-equipe">
+            Está é a professora Francisca Márcia Façanha Lima
+        </p>
+        <p class="funcao-equipe">
+            Possui em licenciatura e bacharel em Educação Fisíca, Pós-Graduada em Medicina do Esporte, Pós-Graduada em Fisíologia do Exercício e Análise Morfo-Funcional. Especialização: Spinning, Jump, Ginástica Localizada, Treinamento Funcional, HIIT, Ginástica Laboral, Ginástica para a Terceira Idade, Personal-Trainer, Alongamento, Treinamento TABATA, Primeiros-Socorros.
+            <br />
+            <br />
+            Dentro do projeto ela é a professora e instrutora fisica. Ela está responsável por organizar as dinâmicas e orientar um exercício mais
+            adequado, diante da necessidade do aluno.
+        </p>
+      </div>      
+    </div>    
+    <div class="equipe-wrapper">
+      <img src="./imagens/equipe3.png" alt="" class="imagem-equipe" />
+      <div class="equipe-text">
+        <p class="descricao-profissional-equipe">
+            Está é a Glória Martiniano
+        </p>
+        <p class="funcao-equipe">
+            Ela é a responsável por representar o projeto para os orgãos públicos. 
+        </p>
+      </div>      
+    </div>
+    <div class="equipe-wrapper">
+      <img src="./imagens/equipe2.png" alt="" class="imagem-equipe" />
+      <div class="equipe-text">
+        <p class="descricao-profissional-equipe ">
+            Está é a Juliana Fernandes
+        </p>
+        <p class="funcao-equipe">
+            Dentro do projeto ela é a auxiliar da professora, auxiliando no controle dos materiais e da quantidade de pessoas presentes.
+        </p>
+      </div>      
+    </div>    
 </div>`;
 
 const contato = `
@@ -166,15 +174,27 @@ window.addEventListener("load", function () {
   const content = document.querySelector(".content");
   content.innerHTML = pages["home"];
 
+  let switcher = false;
+
   document.querySelector(".home").addEventListener("click", pageSelected);
   document.querySelector(".about").addEventListener("click", pageSelected);
   document.querySelector(".events").addEventListener("click", pageSelected);
   document.querySelector(".staff").addEventListener("click", pageSelected);
   document.querySelector(".contact").addEventListener("click", pageSelected);
+  document.querySelector(".ham-button").addEventListener("click", switcherButton);
 
   function pageSelected(e) {
     let currentPage = e.target.className;
-    console.log(currentPage);
     content.innerHTML = pages[currentPage];
+  }
+
+  function switcherButton() {
+    if (switcher) {
+      document.querySelector(".menu").classList.add("remove");
+      return (switcher = false);
+    } else {
+      document.querySelector(".menu").classList.remove("remove");
+      return (switcher = !switcher);
+    }
   }
 });
